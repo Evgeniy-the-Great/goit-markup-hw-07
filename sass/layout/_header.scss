@@ -17,7 +17,7 @@
   &__link {
     display: block;
     padding-top: 32px;
-    color: var(--secondary-text-color);
+    color: $secondary-text-color;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -26,20 +26,20 @@
 
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: var(--transition-timing);
+    transition-timing-function: $transition-timing;
   }
   &__link:hover,
   &__link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   &__current{
-    color: var(--accent-color);
+    color: $accent-color;
   }
   &__current::after {
     display: flex;
     content: '';
     margin-top: 28px;
-    border-bottom: 4px solid var(--accent-color);
+    border-bottom: 4px solid $accent-color;
     border-radius: 2px;
   }
 }
@@ -48,7 +48,7 @@
   display: flex;
   margin-left: auto;
   &__link {
-    color: var(--main-text-color);
+    color: $main-text-color;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -57,11 +57,11 @@
 
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: var(--transition-timing);
+    transition-timing-function: $transition-timing;
   }
   &__link:hover,
   &__link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
   &__item:not(:last-child) {
     margin-right: 50px;

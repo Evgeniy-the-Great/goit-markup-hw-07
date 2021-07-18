@@ -10,7 +10,7 @@ footer {
 }
 
 .address__text {
-  color: var(--common-bg-color);
+  color: $common-bg-color;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -32,7 +32,7 @@ footer {
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition-timing);
+  transition-timing-function: $transition-timing;
 }
 
 .address__link:not(:last-child) {
@@ -41,7 +41,7 @@ footer {
 
 .address__link:focus,
 .address__link:hover {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .footer-list {
@@ -57,7 +57,7 @@ footer {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    color: var(--common-bg-color);
+    color: $common-bg-color;
   }
 }
 
@@ -82,5 +82,5 @@ footer {
 .footer-icon {
   max-width: 100%;
   max-height: 100%;
-  fill: var(--common-bg-color);
+  fill: $common-bg-color;
 }

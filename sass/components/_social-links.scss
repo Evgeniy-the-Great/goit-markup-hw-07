@@ -8,13 +8,13 @@
 
   transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition-timing);
+  transition-timing-function: $transition-timing;
 
   &:hover  {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
   &:hover .social__icon {
-    fill: var(--common-bg-color);
+    fill: $common-bg-color;
   }
 }
 
@@ -25,10 +25,10 @@
 }
 
 .social__icon {
-  fill: var(--icon-color);
+  fill: $icon-color;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition-timing);
+  transition-timing-function: $transition-timing;
 }
 
 

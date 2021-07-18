@@ -6,17 +6,17 @@ img {
 }
 
 body {
-  background: var(--common-bg-color);
-  color: var(--main-text-color);
+  background: $common-bg-color;
+  color: $main-text-color;
   font-family: Roboto;
   letter-spacing: 0.03em;
 }
 
 header {
-  border-bottom: 1px solid var(--border-bottom-colour);
+  border-bottom: 1px solid $border-bottom-colour;
 }
 main {
-  border-top: 1px solid var(--border-bottom-colour);
+  border-top: 1px solid $border-bottom-colour;
 }
 
 .list,

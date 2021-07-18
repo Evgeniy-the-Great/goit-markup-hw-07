@@ -25,13 +25,13 @@
 
     transition-property: border-color;
     transition-duration: 250ms;
-    transition-timing-function: var(--transition-timing);
+    transition-timing-function: $transition-timing;
   }
   &__link:hover {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
   &__link:hover &__icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
   &__icon {
     fill: #AFB1B8;

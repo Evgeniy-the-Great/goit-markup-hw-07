@@ -6,18 +6,18 @@
   padding-bottom: 94px;
 
   &__item {
-    margin-left: var(--card-set-gap);
-    margin-top: var(--card-set-gap);
-    flex-basis: calc(100% / 3 - var(--card-set-gap));
-    border: 1px solid var(--border-project-colour);
+    margin-left: $card-set-gap;
+    margin-top: $card-set-gap);
+    flex-basis: calc(100% / 3 - $card-set-gap);
+    border: 1px solid $border-project-colour;
     box-shadow: none;
 
     transition-property: box-shadow;
     transition-duration: 250ms;
-    transition-timing-function: var(--transition-timing);
+    transition-timing-function: $transition-timing;
   }
   &__item:hover {
-    box-shadow: var(--card-shadow);
+    box-shadow: $card-shadow;
   }
   &__item:hover &__thumb::before {
     transform: translateY(0);
@@ -43,7 +43,7 @@
 
     transition-property: opacity, transform;
     transition-duration: 250ms;
-    transition-timing-function: var(--transition-timing);
+    transition-timing-function: $transition-timing;
 
     transform: translateY(100%);
   }
@@ -59,13 +59,13 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
-    color: var(--common-bg-color);
+    color: $common-bg-color;
 
     opacity: 0;
 
     transition-property: opacity;
     transition-duration: 250ms;
-    transition-timing-function: var(--transition-timing);
+    transition-timing-function: $transition-timing;
   }
   &__item:hover &__overlay{
     opacity: 1;
@@ -73,7 +73,7 @@
   &__title {
     margin: 20px 24px 4px 24px;
 
-    color: var(--secondary-text-color);
+    color: $secondary-text-color;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
